@@ -1,0 +1,125 @@
+.logo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 4%;
+
+}
+.nav{
+   
+    padding: 8px;
+    width: 98vw;
+    height: 120px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.logo1{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 4%;
+    
+}
+.layout .left-ads{
+    margin-left: 11%;
+}
+.content h2{
+    color: green;
+}
+.content h3{
+    color:green
+}
+.middle-content h2{
+    text-align: center; 
+    text-decoration: underline ;
+
+}
+@media (max-width: 466px) {
+    .navbar {
+      background: linear-gradient(90deg, #004b1f, #00441e);
+    }
+  
+nav .menu{
+    display: flex;
+}
+nav {
+    flex-direction: column;
+    align-items:start;
+
+}
+nav ul{
+   display: none;
+    flex-direction: column;
+    width:200px;
+    
+    top:0;
+    margin-bottom: 0.5rem;
+    background:linear-gradient(90deg, #004b1f, #00441e);
+    
+    transition: right 0.5s;
+    
+}
+
+nav ul.open{
+    display: flex;
+}
+nav ul li{
+    width: 100%;
+    text-align: center;
+    display: block;
+
+    
+}
+nav ul .menu{
+    position: absolute;
+    top:25px;
+    left:25px;
+    cursor: pointer;
+
+}
+nav ul li a{
+    margin:0.2rem 0.5rem;
+}
+.nav-links {
+    color: white
+    
+}
+.nav-links:hover {
+    border-bottom: 3px solid white;
+}
+
+
+.navbar-container {
+    display: block;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 20px;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    top: 0;
+    margin-bottom: 0.2rem;
+    background: linear-gradient(90deg, #004b1f, #00441e);
+    transition: 0s;
+
+ }
+ 
+ 
+}
+
+
+        
+    

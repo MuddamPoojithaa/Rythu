@@ -1,0 +1,111 @@
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.left-ads {
+    flex: 0 1 160px; /* Adjusted to smaller size */
+    max-width: 200px; /* Adjusted to smaller size */
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 5px;
+    box-sizing: border-box;
+    
+  }
+  
+.content {
+    flex: 1; /* Flexible width to occupy remaining space */
+    width: 60%;
+    /* padding: 10px; */
+  }
+  .layout .left-ads {
+    margin-left: 14%;
+    margin-left: 1%;
+  }
+  
+.right-ads {
+    flex: 0 1 160px; /* Adjusted to smaller size */
+    max-width: 200px; /* Adjusted to smaller size */
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  
+  /*@media (max-width: 768px) {
+    .left-ads, .right-ads {
+      display: none; /* Hide ads on smaller screens 
+    }*/
+    
+    /*.content {
+      width: 100%; /* Full width on smaller screens 
+    }
+  }*/
+
+/*.news {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 180px;
+}*/
+
+
+  @media (max-width: 800px){
+    
+    .middle-content {
+      flex: 1 1;
+      max-width: 232px;
+      padding: 7px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      margin: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-left: 5px;
+      margin-right: 196px;
+      box-sizing: border-box;
+    }
+    
+    .About-content {
+      flex: 1 1;
+      max-width: 26px;
+      padding: 7px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      margin: 4px;
+      margin: 5px;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-left: -35px;
+      margin-right: 196px;
+      box-sizing: border-box;
+    }
+    
+    
+  }
+  
+   /* @media (max-width: 830px){
+      .About-content {
+        flex: 1 1;
+        max-width: 200px;
+        padding: 7px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        margin: 4px;
+        margin: 5px;
+        margin-left: -6px;
+        margin-right: 196px;
+        box-sizing: border-box;
+      }
+  }
+    */
+    
+
+@media(max-width:1000px){
+  .content .news {
+    margin-left: -28%;
+    padding-top: 1%;
+    padding-left: 28%;
+  }
+}

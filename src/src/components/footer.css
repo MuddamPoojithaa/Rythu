@@ -1,0 +1,75 @@
+.bg-gray-800 {
+    background-color: #004104; /* Green theme */
+    width: 98vw;
+}
+
+.text-white {
+    color: white;
+}
+
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.mt-10 {
+    margin-top: 2.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hover\:text-pink-500 {
+    color:white;
+  }
+  .hover\:text-white{
+    color: white;
+  }
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-x-4 > :not(template) ~ :not(template) {
+    margin-left: 1rem;
+}
+
+.hover\:text-white:hover {
+    color: white;
+}
+
+.hover\:text-pink-500:hover {
+    color: white;
+}
+
+.mb-1 {
+    color: white;
+    margin-bottom: 0.25rem;
+}
+
+.hover\:text-white:hover {
+    color: white;
+}
+
+.clr{
+
+    color: white;
+
+}

@@ -1,0 +1,28 @@
+.magazine-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+   
+}
+
+.magazine-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* padding: 20px; */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 1550px;
+    height: 600px;
+}
+
+/* .magazine-item:hover {
+    transform: scale(1.05);
+} */
+
+/* .pdf-viewer {
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+} */
